@@ -9,6 +9,7 @@ interface EnvVariables {
 
 export default (env: EnvVariables) => {
     const config: webpack.Configuration = {
+        target: 'node',
         mode: env.mode ?? "production",
         entry: path.resolve(__dirname, 'src', 'index.ts'),
         output: {
