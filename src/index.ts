@@ -1,5 +1,19 @@
 import {User} from "./models/user";
+import {Event} from "./models/event";
+import {Role} from "./models/role";
+import {Participant} from "./models/participant";
+import {Resource} from "./models/resource";
+// import retryFetch from "./utils/retry-fetch";
+// import serverFetch from "./utils/server-fetch";
+// import {authOptions} from "./auth/option";
 
 export {
-    User
+    User,
+    Event,
+    Role,
+    Participant,
+    Resource,
+    // retryFetch,
+    // serverFetch,
+    // authOptions
 }

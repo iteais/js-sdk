@@ -1,4 +1,3 @@
-import 'server-only';
 type FetchArguments = Parameters<typeof fetch>;
 /**
  * Fetch wrapper for server side use only.

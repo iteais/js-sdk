@@ -1,5 +1,5 @@
-import 'server-only'
-import { createHash } from 'crypto'
+// import 'server-only'
+import { createHash } from 'node:crypto'
 
 type FetchArguments = Parameters<typeof fetch>;
 

@@ -1,4 +1,4 @@
-import 'server-only'
+// import 'server-only'
 import { getServerSession } from 'next-auth'
 import { authOptions } from '../auth/option'
 import retryFetch from './retry-fetch'

@@ -13,7 +13,7 @@ export default (env: EnvVariables) => {
         entry: path.resolve(__dirname, 'src', 'index.ts'),
         output: {
             path: path.resolve(__dirname, 'dist'),
-            filename: 'bundle.[name].js',
+            filename: 'index.js',
             libraryTarget: "umd",
             clean: true
         },
