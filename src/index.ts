@@ -6,6 +6,7 @@ import {Resource} from "./models/resource";
 import retryFetch from "./utils/retry-fetch";
 import serverFetch from "./utils/server-fetch";
 import {authOptions} from "./auth/option";
+import {ObjectToQueryString} from "./utils/object";
 
 export {
     User,
@@ -15,5 +16,6 @@ export {
     Resource,
     retryFetch,
     serverFetch,
-    authOptions
+    authOptions,
+    ObjectToQueryString
 }

@@ -6,4 +6,5 @@ import { Resource } from "./models/resource";
 import retryFetch from "./utils/retry-fetch";
 import serverFetch from "./utils/server-fetch";
 import { authOptions } from "./auth/option";
-export { User, Event, Role, Participant, Resource, retryFetch, serverFetch, authOptions };
+import { ObjectToQueryString } from "./utils/object";
+export { User, Event, Role, Participant, Resource, retryFetch, serverFetch, authOptions, ObjectToQueryString };
