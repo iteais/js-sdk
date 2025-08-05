@@ -1,6 +1,6 @@
 {
   "name": "@iteais/js-sdk",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "x-id JavaScript SDK",
   "main": "dist/index",
   "types": "dist/index",
