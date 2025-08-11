@@ -1,3 +1,4 @@
+import EventSection from "./event-section";
 export interface Event {
     id: number;
     alias: string;
@@ -8,4 +9,7 @@ export interface Event {
     start_time: string;
     end_time: string;
     site: string;
+    preview_img: string;
+    detail_img: string;
+    sections: EventSection[];
 }
