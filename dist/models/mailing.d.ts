@@ -3,4 +3,5 @@ export interface Mailing {
     subject: string;
     body: string;
     recipients: string[];
+    send_at: string;
 }
